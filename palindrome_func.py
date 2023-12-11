@@ -1,5 +1,6 @@
 def my_palindrome_func(myString):
-  myList = list(myString)
+  my_lower_string = myString.lower()
+  myList = list(my_lower_string)
   length = len(myList)
   if myList[length::-1] == myList:
     return True
