@@ -5,11 +5,11 @@ def divide_or_square(number):
 		return round(root, 2)
 	else:
 		remainder = number % 5
-		return round(remainder, 2)
+		return remainder
 
 
 
 
-myNumber = 10
+myNumber = 22
 
 print(divide_or_square(myNumber))
