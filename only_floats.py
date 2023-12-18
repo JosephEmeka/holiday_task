@@ -1,9 +1,9 @@
-def function only_floats(a, b):
+def only_floats (a , b):
 	
-	if a % 1 == 0 and b % 1 == 0:
+	if a % 1 <= 0 and b % 1 <= 0:
 		return 2
 
-	elif a % 1 == 0 or b % 1 == 0:
+	elif a % 1 <= 0 or b % 1 <= 0:
 		return 1
 
 	else:
@@ -12,6 +12,21 @@ def function only_floats(a, b):
 
 
 a = 12.1 
+
+b = 23
+
+print(only_floats(a, b))
+
+
+
+a = 31.0 
+
+b = 32.0
+
+print(only_floats(a, b))
+
+
+a = 12 
 
 b = 23
 
