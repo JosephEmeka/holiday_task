@@ -9,13 +9,13 @@ def check_duplicates(my_list):
 		 duplicates.append(item) 
 
 
-		if len(duplicates) > 0: 
+	if len(duplicates) > 0: 
 
-			return duplicates 
+		return duplicates 
 
-		else: 
+	else: 
 
-			return "No duplicates"
+		return "No duplicates"
 	
 
 
